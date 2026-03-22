@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Certificates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Comic Sans MS', 'Comic';
+            background: linear-gradient(135deg, #0b1b96 0%, #b2df85 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 2000px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+        
+        h1 {
+            font-size: 5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 3em;
+            opacity: 0.9;
+        }
+        
+        .certificates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .certificate-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .certificate-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .certificate-image {
+            width: 100%;
+            height: 200px;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+        }
+        
+        .certificate-content {
+            padding: 20px;
+        }
+        
+        .certificate-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .certificate-issuer {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .certificate-date {
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Certificates</h1>
+            <p class="subtitle">Professional Certifications & Credentials</p>
+        </header>
+        
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/1a1bcdbbc27651a16c7f674449774713" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 135849.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">C# Programming for Unity Game Development</div>
+                    <div class="certificate-issuer">University of Colorado </div>
+                    <div class="certificate-date">January 11, 2026</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/a16edafede02536e0ed25b7faaf43943" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 135735.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Game Development with GameMaker</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">November 12, 2025</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/018694455cccad510ce7c6574d7b64c6" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 135919.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Introduction to Game Design</div>
+                    <div class="certificate-issuer">EPIC GAMES</div>
+                    <div class="certificate-date">February 14, 2026</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/c1d05a5e9eaaf36ec1f5475150dbc28d" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 141142.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Introduction to C# Programming and Unity</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">December 4, 2025</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/6e5393b09dcdf1a86e63297e5e4ab61e" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 141257.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Parenting and More GameMaker Language Code</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">November 12, 2025</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/29e41a9833e04f6715d7e27a484ff26b" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 140830.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">More C# Programming and Unity</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">December 14, 2025</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/33fc54bc1e3a6b8eb11711be400f96b6" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 141358.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Getting Started with GameMaker</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">Octorber 11, 2025</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/77dbbb789f6da6ec7abfce5fccd5f539" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 141331.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Planning, HUDS, and Spawners in GameMaker</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">November 9, 2025</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/07c506a6ac860a2ca4939280a22faa09" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 135949.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Story Narrative Development for Video Games</div>
+                    <div class="certificate-issuer">caLARTS</div>
+                    <div class="certificate-date">March 11, 2026</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/cbe36d4022b7749cc5bf25b9184fb39c" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 140655.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">Intermediate Object-Oriented Programming for Unity Games</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">January 11, 2026</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://coursera.org/share/ddaac936adf96e334c78b0d85b29c0cd" target="_blank">
+                    <img src="images/Screenshot 2026-03-22 140757.png" alt="Certificate" class="certificate-image" style="height: auto;">
+                </a>
+                <div class="certificate-content">
+                    <div class="certificate-title">C# Class Development</div>
+                    <div class="certificate-issuer">University of Colorado</div>
+                    <div class="certificate-date">December 26, 2025</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
